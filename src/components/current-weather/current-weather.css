@@ -1,0 +1,96 @@
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .3rem;
+    box-shadow: .5rem -.1rem 1.2rem .1rem rgb(0 0 0 / 30%);
+    color: #fff;
+    padding: 1rem;
+    min-height: 15rem;
+}
+
+.weather-brief{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.city{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.weather-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+}
+
+.weather-icon{
+    max-width: 5rem;
+}
+
+
+
+.weather-metric{
+    align-self: center;
+}
+
+.weather-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.parameter-label.title{
+    font-size: 1rem;
+    text-align: right;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.temperature-and-more-weather-details{
+    display: flex;
+    gap: 1rem;
+}
+
+.current-temperature{
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+
+
+.more-weather-details{
+    
+}
+
+
+.parameter-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.parameter-label{
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.parameter-value{
+    text-align: right;
+    font-weight: 600;
+    font-size: 12px;
+}
