@@ -3,14 +3,10 @@ import "./current-weather.css";
 
 const CurrentWeather = ({ data, forecast }) => {
 
-  const currentDateTime = forecast.list.dt_txt;
-
-  console.log(forecast.list)
- 
   return (
     <div className="weather-container">
       <div className="date-time" >{forecast.list.temp}</div>
-      <div className="weather-brief">
+      <div className="weather-brief ">
         <div>
           <p className="city">{data.city}</p>
           <p className="weather-description">{data.weather[0].description}</p>
