@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "author": "kangwa-ntema"
+  "author": "kangwa-ntema",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }

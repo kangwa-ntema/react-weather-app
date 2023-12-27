@@ -28,7 +28,6 @@ const Forecast = ({ data }) => {
   return (
     <>
       <div className="week-days-container">
-        <label className="daily-forecast-title">Next 7 days</label>
         <Accordion allowZeroExpanded>
           {data.list.slice(0, 7).map((item, idx) => (
             <AccordionItem key={idx}>
